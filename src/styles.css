@@ -1,0 +1,38 @@
+html {
+  padding-block: 0rem;
+  font-size: 16px;
+}
+body {
+  margin-block: -0.0001rem;
+  margin-inline: -0.0001rem;
+  background-color: white;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100rem;
+}
+Canvas {
+  flex: 1;
+  border: solid 0.25rem red;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 1.25rem;
+  font-weight: 400;
+  transition-duration: 1s;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.05rem;
+}
